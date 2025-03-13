@@ -1,18 +1,54 @@
-.FotoPerfil{
+body{
+    background-color: #c1c1c1;
+}
+
+header{
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #000000;
+}
+
+nav ul{
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   display: flex;
+}
+
+nav ul li{
+margin-left: 20px;
+}
+
+ nav ul a{
     position: relative;
-    top: 00px;
-    left:  1000px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.3s ease;
+}
+
+nav ul li a:hover{
+    color: #ff0000;
+}
+
+
+.FotoPerfil{
+    position: absolute;
+    top: 80px;
+left: 1000px;
 }
 
 img{
     width: 300px;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 0px 10px 10px #000000;
 }
 
 .usuario{
     position: relative;
-    top: -240px;
+    top: 0px;
+    margin-left: 15px;
 }
 
 .usuario h1{
